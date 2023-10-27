@@ -9,7 +9,7 @@ all: style-check type-check run-test clean
 
 .PHONY: type-check
 type-check:
-	$(TYPE_CHECK) .
+	$(TYPE_CHECK) ./cosmicpathoptimization
 
 .PHONY: style-check
 style-check:
